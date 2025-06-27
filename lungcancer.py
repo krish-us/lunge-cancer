@@ -8,7 +8,7 @@ import numpy as np
 import pickle
 
 
-MODEL_PATH = "C:/Users/Krish Solanki/OneDrive/intership/lung-cancer/lungcancer_model.sav"
+MODEL_PATH = "lungcancer_model.sav"
 loaded_model = pickle.load(open(MODEL_PATH, "rb"))
 
 
